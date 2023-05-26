@@ -4,12 +4,22 @@ html {
     padding: 0;
     /* overflow-x: hidden; */
 }
+body{
+    overflow-x: hidden;
+}
 
 .bg-one {
     background-image: url("../images/banner.png");
     background-size: cover;
     height: 100vh;
     width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bg-one img {
+    width: 300px;
 }
 .bg-two {
     background-image: url("../images/banner2.png");
